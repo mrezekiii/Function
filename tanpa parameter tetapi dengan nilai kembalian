@@ -16,5 +16,5 @@ int function ()
 int main () 
 {
 	cetakInfo ();
-	cout << "Hasil Pertambahan dari (73,27) : " << endl << function ();
+	cout << "Berikut adalah hasil Pertambahan dari (73,27) : " << endl << function ();
 }
