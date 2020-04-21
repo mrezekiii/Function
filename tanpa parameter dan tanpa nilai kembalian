@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+//TUGAS PRAKTIKUM DIRUMAH (Function tanpa parameter dan tanpa nilai kembalian) 21/04/2020 MUHAMMAD REZEKI
+//membuat function tanpa parameter dan tanpa nilai kembalian
+void function ()
+{
+	cout << "Function ini tanpa parameter dan tanpa nilai kembalian" << endl;
+}
+
+int main ()
+{
+	function ();
+	return 0;
+}
