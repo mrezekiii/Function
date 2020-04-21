@@ -5,7 +5,7 @@ using namespace std;
 //function tanpa nilai kembalian
 void hasilPerkalian(int nilai1 ,int nilai2 ){
 	cout << "Function dengan parameter tanpa nilai kembalian"<< endl;
-	cout << "Berikut adalah hasil perkalian dari (10,13)" <<endl << (nilai1 * nilai2);
+	cout << "Berikut adalah hasil perkalian dari (10,13) : " <<endl << (nilai1 * nilai2);
 } 
 //ini adalah function utama
 int main (){
