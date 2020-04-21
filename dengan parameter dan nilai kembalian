@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+//TUGAS PRAKTIKUM DIRUMAH (Function dengan parameter dan nilai kembalian) 21/04/2020 MUHAMMAD REZEKI 
+
+void cetakInfo ()
+{
+	cout << "Function dengan parameter dan nilai kembalian" << endl;
+}
+
+int Pengurangan(int nilai1 , int nilai2)
+{
+	return  nilai1 - nilai2;
+}
+
+int main ()
+{
+	cetakInfo ();
+	cout << "Berikut adalah hasil pengurangan dari (100,73) : " <<endl << Pengurangan(100,73);
+	return 0;
+}
