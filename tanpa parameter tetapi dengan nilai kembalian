@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+//TUGAS PRAKTIKUM DIRUMAH (Function tanpa parameter tetapi dengan nilai kembalian) 21/04/2020 MUHAMMAD REZEKI
+//Function tanpa parameter tetapi dengan nilai kembalian
+void cetakInfo ()
+{
+	cout << "Function tanpa parameter tetapi dengan nilai kembalian" << endl;
+}
+
+int function ()
+{
+	int nilai1 = 73, nilai2 = 27;
+	return nilai1 + nilai2;
+}
+
+int main () 
+{
+	cetakInfo ();
+	cout << "Hasil Pertambahan dari (73,27) : " << endl << function ();
+}
