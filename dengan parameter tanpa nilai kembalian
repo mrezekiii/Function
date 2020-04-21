@@ -3,7 +3,7 @@ using namespace std;
 //TUGAS PRAKTIKUM DIRUMAH (Function dengan parameter tanpa nilai kembalian) 21/04/2020 MUHAMMAD REZEKI 
 
 //function tanpa nilai kembalian
-void hasilPerkalian(int angka1 ,int angka2 ){
+void hasilPerkalian(int nilai1 ,int nilai2 ){
 	cout << "Function dengan parameter tanpa nilai kembalian"<< endl;
 	cout << "Berikut adalah hasil perkalian dari (10,13)" <<endl << hasilPerkalian;
 } 
