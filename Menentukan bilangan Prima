@@ -5,13 +5,13 @@ using namespace std;
 		dan mempunyai 2 faktor pembagi yaitu 1 dan bilangan itu sendiri */
 
 int main() {
-int n;
-cout<<"Masukkan bilangan yang akan di Cek:" <<endl;
-cin>>n;
+int angka;
+cout<<"Masukkan bilangan yang akan ditentukan : " <<endl;
+cin>>angka;
 int prima = 1;
-for(int i=2; i<n; i++) {
-if(n%i==0)
-prima=0;
+for(int i = 2; i < angka; i++) {
+if(angka % i == 0)
+prima = 0;
 }
 if (prima) {
 cout<< n <<" Adalah bilangan prima"<<endl;
