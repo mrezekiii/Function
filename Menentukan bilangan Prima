@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+//LATIHAN SEBELUM UAS (Menentukn Bil Prima) 09/06/2020 MUHAMMAD REZEKI
+	/*Bilangan Prima ngitu artinya adalah bilangan asli nang barnilai lebih dari 1 
+		dan mempunyai 2 faktor pembagi yaitu 1 dan bilangan itu sendiri */
+
+int main() {
+int n;
+cout<<"Masukkan bilangan yang akan di Cek:" <<endl;
+cin>>n;
+int prima = 1;
+for(int i=2; i<n; i++) {
+if(n%i==0)
+prima=0;
+}
+if (prima) {
+cout<< n <<" Adalah bilangan prima"<<endl;
+}
+else {
+cout<< n <<" Bukan bilangan prima"<<endl;
+}
+return 0;
+}
