@@ -4,20 +4,27 @@ using namespace std;
 	/*Bilangan Prima ngitu artinya adalah bilangan asli nang barnilai lebih dari 1 
 		dan mempunyai 2 faktor pembagi yaitu 1 dan bilangan itu sendiri */
 
-int main() {
-int angka;
-cout<<"Masukkan bilangan yang akan ditentukan : " <<endl;
-cin>>angka;
-int prima = 1;
-for(int i = 2; i < angka; i++) {
-if(angka % i == 0)
-prima = 0;
+	bool angkaPrima(int angka){
+ 	bool prima = true;
+ 	for (int i = 2; i<angka - 1; i++){
+  	if (angka % i == 0)
+  	{
+   	prima = false;
+   	break;
+  	}
+ }
+ return prima;
 }
-if (prima) {
-cout<< angka <<" Adalah bilangan prima"<<endl;
-}
-else {
-cout<< angka <<" Bukan bilangan prima"<<endl;
-}
-return 0;
+int main(){
+ 	int angka;
+ 	cout<<"BILANGAN PRIMA"<< endl;
+ 	cout << "Masukan angka yang akan ditentukan : "<< endl;
+	cin>> angka;
+ 	if (angkaPrima(angka)) {
+ 	cout << " True ( adalah Bilangan Prima )";
+	 }else {
+	cout << " False ( Bukan Bilangan Prima )";	
+	 }
+ 
+ return 0;
 }
