@@ -14,10 +14,10 @@ if(angka % i == 0)
 prima = 0;
 }
 if (prima) {
-cout<< n <<" Adalah bilangan prima"<<endl;
+cout<< angka <<" Adalah bilangan prima"<<endl;
 }
 else {
-cout<< n <<" Bukan bilangan prima"<<endl;
+cout<< angka <<" Bukan bilangan prima"<<endl;
 }
 return 0;
 }
